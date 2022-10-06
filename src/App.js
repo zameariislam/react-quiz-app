@@ -3,13 +3,14 @@
 import LayOut from './components/LayOut';
 
 import './css/App.css'
-import Home from './pages/Home';
+
+import SignUp from './pages/SignUp';
 function App() {
   return (
     <div className='App'  >
 
       <LayOut>
-        <Home />
+       <SignUp/>
 
       </LayOut>
 
